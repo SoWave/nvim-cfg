@@ -6,7 +6,7 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
 
-  use 'sainnhe/everforest'
+  use 'NLKNguyen/papercolor-theme'
 
   use {
         'nvim-treesitter/nvim-treesitter',
@@ -27,6 +27,7 @@ return require('packer').startup(function()
 
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
+  use 'rafamadriz/friendly-snippets'
 
   use {
       'nvim-lualine/lualine.nvim',
@@ -36,5 +37,7 @@ return require('packer').startup(function()
       'nvim-telescope/telescope.nvim',
       requires = { {'nvim-lua/plenary.nvim'} }
     }
+  use 'numToStr/Comment.nvim'
+  use 'windwp/nvim-autopairs'
 end)
 

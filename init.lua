@@ -1,4 +1,6 @@
 require('plugins')
-require('settings')
+
+require('setEditor')
 require('maps')
 
+require('pluginSettings')

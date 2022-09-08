@@ -28,3 +28,14 @@ key_mapper('n', '<leader>fg', '<cmd>lua require("telescope.builtin").live_grep()
 key_mapper('n', '<leader>fb', '<cmd>lua require("telescope.builtin").buffers()<cr>')
 key_mapper('n', '<leader>fh', '<cmd>lua require("telescope.builtin").help_tags()<cr>')
 
+
+-- clipboard
+
+key_mapper('v', '<leader>y', '"+y')
+key_mapper('n', '<leader>Y', '"+yg_')
+key_mapper('n', '<leader>y', '"+y')
+
+key_mapper('v', '<leader>p', '"+p')
+key_mapper('n', '<leader>P', '"+P')
+key_mapper('n', '<leader>p', '"+p')
+
