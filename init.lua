@@ -1,6 +1,6 @@
-require('plugins')
+require('pluginList')
 
-require('setEditor')
-require('maps')
+require('editorConfig')
+require('keyMap')
 
-require('pluginSettings')
+require('pluginConfig')

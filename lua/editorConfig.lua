@@ -19,17 +19,17 @@ o.hidden = true
 o.completeopt='menuone,noinsert,noselect'
 bo.autoindent = true
 bo.smartindent = true
-o.tabstop = 8
+o.tabstop = 2
 o.softtabstop = 0
-o.shiftwidth = 4
+o.shiftwidth = 2
 o.expandtab = true
 wo.number = true
 wo.relativenumber = true
 wo.signcolumn = 'yes'
 wo.wrap = false
+set.mouse = ""
+set.wildignore = "*/node_modules/**"
 
 g.mapleader = ' '
 
-vim.cmd 'colorscheme PaperColor'
-
-
+require('colorScheme')
