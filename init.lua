@@ -1,6 +1,5 @@
-require('pluginList')
+require('config.options')
+require('config.lazy')
+require('config.keymaps')
 
-require('editorConfig')
-require('keyMap')
-
-require('pluginConfig')
+vim.cmd("colorscheme kanagawa")
